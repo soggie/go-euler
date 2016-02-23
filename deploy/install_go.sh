@@ -12,3 +12,7 @@ export PATH=$PATH:$GOPATH/bin
 echo "export PATH=$PATH:/usr/local/go/bin" >> /home/vagrant/.bash_profile
 echo "export GOPATH=/home/vagrant/gohome" >> /home/vagrant/.bash_profile
 echo "export PATH=$PATH:$GOPATH/bin" >> /home/vagrant/.bash_profile
+
+# Compile euler
+cd $GOPATH/src/euler
+go build
