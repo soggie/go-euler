@@ -1,3 +1,8 @@
 # Project Euler Solutions in Go
 
-Enjoy
+To run:
+
+    $ vagrant up
+    $ vagrant ssh
+    $ cd gohome/src/euler
+    $ ./euler
